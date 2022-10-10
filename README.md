@@ -1,4 +1,4 @@
-# Still coding, not finish yet
+# Still coding, not finish yet.
 
 ### `npm install`
 ### `npm start`
