@@ -17,7 +17,45 @@ header {
   align-items: center;
   background-color: #e63946;
   color: #f1faee;
-
   padding: .7rem 0rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.feedback-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 80%;
+  padding: 3rem;
+  margin-top: 2rem;
+}
+
+.card .num-display {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -10px;
+  left: -10px;
+  background-color: #e63946;
+  color: #f1faee;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 
 }
