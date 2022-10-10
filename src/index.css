@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #1d3557;
+  background: #457B9D;
 }
 header {
   display: flex;
@@ -20,12 +20,7 @@ header {
   padding: .7rem 0rem;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
+.container,
 .feedback-list {
   display: flex;
   justify-content: center;
@@ -54,8 +49,17 @@ header {
   left: -10px;
   background-color: #e63946;
   color: #f1faee;
+  font-weight: 600;
   border-radius: 50%;
   width: 40px;
   height: 40px;
+}
 
+.card .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  border: none;
+  background: none;
 }
