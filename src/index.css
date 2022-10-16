@@ -77,5 +77,41 @@ header {
   align-items: center;
   width: 80%;
   color: #f1faee;
-  margin-bottom: 1rem;
+  margin: 1rem 0rem;
+}
+
+.btn {
+  color: #f1faee;
+  border: 0;
+  border-radius: 8px;
+  color: #f1faee;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #e63946;
+}
+
+.btn-secondary {
+  background-color: #457B9D;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.input-group input {
+  flex-grow: 2;
+  border: none;
+  font-size: 16px;
+  text-indent: 1rem;
+}
+.input-group input:focus {
+  outline: none;
 }
