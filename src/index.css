@@ -44,7 +44,7 @@ header {
   background-color: #fff;
   border-radius: 8px;
   width: 80%;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .card .num-display {
@@ -69,4 +69,13 @@ header {
   cursor: pointer;
   border: none;
   background: none;
+}
+
+.feedback-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  color: #f1faee;
+  margin-bottom: 1rem;
 }
