@@ -50,12 +50,14 @@ header {
 .card {
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #fff;
   border-radius: 8px;
   width: 80%;
   padding: 2rem;
+  margin: auto;
 }
 
 .card .num-display {
