@@ -2,6 +2,8 @@
 
 /* 
 #457B9D = blue
+#1d3557 = dark blue
+#a8dadc = light blue
 #e63946 = red
 #f1faee = white
 */
@@ -51,8 +53,8 @@ header {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   background-color: #fff;
   border-radius: 8px;
   width: 80%;
@@ -198,4 +200,24 @@ form {
 [type='radio']:checked ~ label {
   background: #e63946;
   color: #f1faee;
+}
+
+.about-link {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+.about-link a {
+  color: #f1faee;
+}
+.about-link:hover a {
+  color: #a8dadc;
+}
+
+.link {
+  text-decoration: none;
+  color: #1d3557;
+}
+.link:hover {
+  color: #457B9D;
 }
